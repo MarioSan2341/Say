@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: say
+    runtime: static
+    buildCommand: echo "sitio listo"
+    staticPublishPath: .
